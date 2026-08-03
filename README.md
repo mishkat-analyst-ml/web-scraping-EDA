@@ -15,32 +15,46 @@ This project demonstrates an end-to-end **Web Scraping and Exploratory Data Anal
 
 
 📖 20 Best-Selling Books
+
 💰 Price Range: £13.99 - £57.25
+
 ⭐ Ratings: 1-5 Star System
+
 📊 100% Clean Data Output
+
 
 
 
 ### **Before & After Transformation**
 
+
 # Raw HTML → Clean DataFrame → Visual Insights
+
 "Â£51.77" → 51.77 → 📊 [Histogram & Boxplot]
+
 "star-rating Three" → 3 → 📊 [Rating Distribution]
 
 
-graph LR
+
+# graph LR
+
     A[🌐 Website] -->|Request| B[🤖 BeautifulSoup]
+    
     B -->|Parse| C[📊 Pandas DataFrame]
+    
     C -->|Clean| D[✨ Golden Dataset]
+    
     D -->|Visualize| E[📈 Matplotlib Charts]
+    
 
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 <div align="center">
       
 Layer	Technology
 
 Web Scraping	Requests + BeautifulSoup4
+
 Data Processing	Pandas + NumPy
 
 Visualization	Matplotlib
@@ -52,63 +66,53 @@ Error Handling	Try-Except + Logging
 </div>
 ##📈 Performance Metrics
 
+
 ⏱️ Scrape Speed: 0.15 seconds/book
+
 
 🎯 Success Rate: 100% (if the website is up)
 
+
 🧹 Data Cleanliness: 99.9% (handles edge cases)
 
+
 📊 Analysis Ready: Immediately after execution
+
 
 🎨 Customization Options
 python
 
+
 # Want more books? Easy!
+
 
 url = "https://books.toscrape.com/catalogue/page-2.html"
 
-# Want different data? Modify the selector
-
-title = book.find('h3').a.text
-
-# Want different visualizations? Change the plot
-
-plt.pie(df['Rating'].value_counts(), labels=['1⭐', '2⭐', '3⭐', '4⭐', '5⭐'])
-🏆 Why This Beats the Competition
 # My Project	Others
+
 ✅ Automatic data cleaning	❌ Manual cleanup needed
+
 ✅ Visualizations built-in	❌ Export then manual plot
+
 ✅ Error handling included	❌ Breaks on 404
+
 ✅ Clean, documented code	❌ Spaghetti code
+
 ✅ One-click analysis	❌ Multiple tools needed
-🌟 Impact Metrics
+
+# 🌟 Impact Metrics
+
 🎓 Learners: This code taught 500+ developers web scraping
+
 
 💼 Businesses: Used to track 10,000+ book prices
 
+
 📚 Students: Clean data for 15+ academic projects
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
 
 
 ## 👨‍💻 Author
 
 **Mishkat Ullah**
 
-**Aspiring Data Analyst | Python | SQL | Power BI | Machine Learning**
+**Data Analyst | Python | SQL | Power BI | Machine Learning**
