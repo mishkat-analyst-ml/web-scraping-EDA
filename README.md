@@ -64,19 +64,20 @@ Deployment	Python 3.8+
 Error Handling	Try-Except + Logging
 
 </div>
-##📈 Performance Metrics
+
+📈Performance Metrics
 
 
-⏱️ Scrape Speed: 0.15 seconds/book
+⏱️ **Scrape Speed:** 0.15 seconds/book
 
 
-🎯 Success Rate: 100% (if the website is up)
+🎯 **Success Rate: 100%** (if the website is up)
 
 
-🧹 Data Cleanliness: 99.9% (handles edge cases)
+🧹 **Data Cleanliness: 99.9%** (handles edge cases)
 
 
-📊 Analysis Ready: Immediately after execution
+📊 **Analysis Ready:** Immediately after execution
 
 
 🎨 Customization Options
